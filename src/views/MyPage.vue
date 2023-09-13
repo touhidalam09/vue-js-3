@@ -5,8 +5,8 @@ const flashHandle = (title, message, level) => {
 </script>
 
 <template>
-    <h1>HOME</h1>
+    <h1>My page</h1>
     <div>
-        <button @click="flashHandle('Success!', 'I am in Home', 'success')">Click Me</button>
+        <button @click="flashHandle('Welcome!', 'I am in My Page', 'info')">Click Me</button>
     </div>
 </template>
