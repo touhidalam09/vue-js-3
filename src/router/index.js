@@ -12,6 +12,11 @@ const router = createRouter({
       path: '/home',
       name: 'home',
       component: () => import('@/views/HomeView.vue')
+    },
+    {
+      path: '/input',
+      name: 'inputReload',
+      component: () => import('@/views/InputReload.vue')
     }
   ]
 })
